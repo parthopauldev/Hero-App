@@ -4,7 +4,7 @@ import Banner from './Banner';
 
 const Header = () => {
     return (
-        <div>
+        <div className='bg-gray-100'>
            <Navber></Navber>
            <Banner/>
         </div>

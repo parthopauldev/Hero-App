@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
+    "title": "Focus Hero",
+    "companyName": "MindLabs",
+    "description": "Boost your focus and productivity with AI-powered task timers.",
+    "size": 54,
+    "reviews": 12000,
+    "ratingAvg": 4.7,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 230 },
+      { "name": "2 star", "count": 410 },
+      { "name": "3 star", "count": 890 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 8970 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1611605698335-8b1569810432",
+    "title": "FitTrack",
+    "companyName": "Wellness Inc.",
+    "description": "Track workouts, calories, and health stats all in one place.",
+    "size": 88,
+    "reviews": 8050,
+    "ratingAvg": 4.5,
+    "downloads": 800000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 4430 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1612831662375-295c1003d3ca",
+    "title": "Budget Buddy",
+    "companyName": "FintechX",
+    "description": "Your personal finance assistant that helps manage expenses smartly.",
+    "size": 43,
+    "reviews": 6420,
+    "ratingAvg": 4.6,
+    "downloads": 610000,
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 2780 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64",
+    "title": "Moodify",
+    "companyName": "SoulWare",
+    "description": "Relax with soundscapes, guided meditation, and mood journaling.",
+    "size": 72,
+    "reviews": 9800,
+    "ratingAvg": 4.8,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 7750 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1611605698323-997f52e59c5d",
+    "title": "Travelly",
+    "companyName": "WanderSoft",
+    "description": "Plan, book, and explore destinations with AI-driven recommendations.",
+    "size": 94,
+    "reviews": 15600,
+    "ratingAvg": 4.4,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 460 },
+      { "name": "2 star", "count": 740 },
+      { "name": "3 star", "count": 1220 },
+      { "name": "4 star", "count": 5600 },
+      { "name": "5 star", "count": 9580 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2",
+    "title": "NoteMaster",
+    "companyName": "CloudSync",
+    "description": "A minimalist note-taking app that syncs seamlessly across devices.",
+    "size": 39,
+    "reviews": 4200,
+    "ratingAvg": 4.3,
+    "downloads": 420000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 190 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 1810 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
+    "title": "TaskHero",
+    "companyName": "NextGen Apps",
+    "description": "Organize your day and boost productivity effortlessly.",
+    "size": 58,
+    "reviews": 9600,
+    "ratingAvg": 4.9,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 7260 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://images.unsplash.com/photo-1612832021507-42e5af84aee9",
+    "title": "PhotoFix",
+    "companyName": "PixelPro",
+    "description": "Edit, enhance, and share your photos with ease and creativity.",
+    "size": 68,
+    "reviews": 13400,
+    "ratingAvg": 4.5,
+    "downloads": 1900000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 4900 },
+      { "name": "5 star", "count": 6580 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7",
+    "title": "WeatherNow",
+    "companyName": "SkyTech",
+    "description": "Get real-time weather updates and forecasts for your area.",
+    "size": 47,
+    "reviews": 7800,
+    "ratingAvg": 4.2,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 240 },
+      { "name": "2 star", "count": 390 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 3370 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://images.unsplash.com/photo-1612831455543-8d1e93b0c937",
+    "title": "ShopEasy",
+    "companyName": "CommerceFlow",
+    "description": "Browse, compare, and shop products effortlessly.",
+    "size": 59,
+    "reviews": 9300,
+    "ratingAvg": 4.6,
+    "downloads": 1600000,
+    "ratings": [
+      { "name": "1 star", "count": 230 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 870 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 5000 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://images.unsplash.com/photo-1542435503-9d4e5f32a77a",
+    "title": "RecipeGenie",
+    "companyName": "CookSoft",
+    "description": "Discover new recipes, plan meals, and manage your kitchen inventory.",
+    "size": 65,
+    "reviews": 11200,
+    "ratingAvg": 4.7,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 310 },
+      { "name": "3 star", "count": 680 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 6000 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://images.unsplash.com/photo-1611605698335-8b1569810432",
+    "title": "CodeLearn",
+    "companyName": "DevAcademy",
+    "description": "Interactive coding lessons and challenges for all skill levels.",
+    "size": 110,
+    "reviews": 21000,
+    "ratingAvg": 4.9,
+    "downloads": 4100000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 13900 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://images.unsplash.com/photo-1557804506-6644f86f78a7",
+    "title": "LanguageLink",
+    "companyName": "GlobalTalk",
+    "description": "Connect with native speakers for language practice and cultural exchange.",
+    "size": 79,
+    "reviews": 18400,
+    "ratingAvg": 4.5,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 10000 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://images.unsplash.com/photo-1600109915995-f12613d5f949",
+    "title": "StockPulse",
+    "companyName": "MarketView",
+    "description": "Real-time stock market tracking, news, and portfolio management.",
+    "size": 60,
+    "reviews": 14500,
+    "ratingAvg": 4.4,
+    "downloads": 1100000,
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 550 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 5500 },
+      { "name": "5 star", "count": 7000 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://images.unsplash.com/photo-1589726217646-4e5804513689",
+    "title": "PawsMatch",
+    "companyName": "PetConnect",
+    "description": "Find and adopt a pet from local shelters and rescue organizations.",
+    "size": 49,
+    "reviews": 5800,
+    "ratingAvg": 4.8,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 190 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 3200 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://images.unsplash.com/photo-1589726217646-4e5804513689",
+    "title": "AuraFilter",
+    "companyName": "VisionSoft",
+    "description": "Advanced filters and effects to give your videos a professional touch.",
+    "size": 130,
+    "reviews": 24000,
+    "ratingAvg": 4.6,
+    "downloads": 3500000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1700 },
+      { "name": "4 star", "count": 9000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://images.unsplash.com/photo-1589726217646-4e5804513689",
+    "title": "HomeHub",
+    "companyName": "SmartLiving Co.",
+    "description": "Control all your smart home devices from one intuitive dashboard.",
+    "size": 51,
+    "reviews": 7100,
+    "ratingAvg": 4.3,
+    "downloads": 880000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 2990 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://images.unsplash.com/photo-1542435503-9d4e5f32a77a",
+    "title": "StoryCraft",
+    "companyName": "Narrative Games",
+    "description": "Create interactive stories and choose-your-own-adventure narratives.",
+    "size": 91,
+    "reviews": 16700,
+    "ratingAvg": 4.7,
+    "downloads": 2300000,
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 580 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 8600 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
+    "title": "CommuniTea",
+    "companyName": "SocialWeb",
+    "description": "A calm, positive social network focused on hobbies and shared interests.",
+    "size": 75,
+    "reviews": 9200,
+    "ratingAvg": 4.9,
+    "downloads": 1400000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 1700 },
+      { "name": "5 star", "count": 7000 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://images.unsplash.com/photo-1542435503-9d4e5f32a77a",
+    "title": "3D Sketcher",
+    "companyName": "DesignWorks",
+    "description": "Simple mobile tool for creating and viewing 3D models on the go.",
+    "size": 105,
+    "reviews": 10500,
+    "ratingAvg": 4.6,
+    "downloads": 990000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 5500 }
+    ]
+  }
+]

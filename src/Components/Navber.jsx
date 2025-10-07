@@ -8,7 +8,7 @@ import '../App.css'
 
 const Navber = () => {
     return (
-         <div>
+         <div className='bg-white'>
            <div className="navbar bg-base-100 shadow-sm">
   <div className="navbar-start">
     <div className="dropdown">
@@ -32,10 +32,10 @@ const Navber = () => {
      
       </ul>
     </div>
-    <Link to='/' className="btn  btn-ghost text-3xl font-bold">
+    <div className="btn  btn-ghost text-3xl font-bold">
     <img className='h-[50px]' src={Logo} alt="" />
     <Link className='text-4xl font-bold bg-[linear-gradient(90deg,#9F62F2_0%,#632EE3_100%)] bg-clip-text text-transparent'>Hero.IO</Link>
-    </Link>
+    </div>
   </div>
   <div className="navbar-center hidden lg:flex">
   <ul className="menu menu-horizontal hidden lg:flex px-1">
