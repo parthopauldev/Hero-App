@@ -1,1 +1,10 @@
 
+.active{
+  
+  border-bottom: 2px solid rgb(153, 130, 238);
+   background: linear-gradient(90deg, #9F62F2 0%, #632EE3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}

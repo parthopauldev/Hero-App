@@ -1,9 +1,10 @@
 import React from 'react';
+import Navber from './Navber';
 
 const Header = () => {
     return (
         <div>
-            i am header
+           <Navber></Navber>
         </div>
     );
 };
