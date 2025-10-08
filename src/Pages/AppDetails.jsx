@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { useParams } from "react-router";
 import UseApps from "../Hooks/UseApps";
 import { toast } from "react-toastify";
+import ErrorPage from "./ErrorPage";
 
 const AppDetails = () => {
     let [active,setActive]=useState(false)
@@ -15,7 +16,7 @@ const AppDetails = () => {
   if (error) return <p className="text-red-500">{error}</p>;
 
   const app = apps.find((p) => String(p.id) === id);
-  if (!app) return <p className="text-center text-gray-500">App not found</p>;
+  if (!app) return <ErrorPage/>;
 
   const { image, title, companyName, downloads, ratingAvg, reviews, size } =
     app;
