@@ -20,7 +20,7 @@ let homePageApps=apps.slice(0,8);
 
 </p>
                      
-                      <div className='bg-gray-100 mt-[50px] gap-2 grid grid-cols-4'>
+                      <div className='bg-gray-100 mt-[50px] gap-2 grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 place-items-center'>
                         {
                             homePageApps.map((app)=>(
                                 <AppCard key={app.id} app={app}></AppCard>

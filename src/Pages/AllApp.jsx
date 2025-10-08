@@ -36,7 +36,7 @@ const AllApp = () => {
   <input type="search"  value={search} onChange={(e)=>setSearch(e.target.value)} required placeholder="Search App" />
 </label>
                      </div>
-                      <div className='bg-gray-100 mt-[20px] gap-2 grid grid-cols-4 place-items-center'>
+                      <div className='bg-gray-100 mt-[20px] gap-2 grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 place-items-center'>
                         {
                         searchApps.length > 0? searchApps.map((app)=>(
                                 <AppCard key={app.id} app={app}></AppCard>

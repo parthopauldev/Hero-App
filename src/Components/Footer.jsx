@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div>
          <footer className="footer bg-black text-white footer-horizontal footer-center  rounded p-20">
-            <div className='flex justify-between w-full'>
+            <div className='flex flex-col sm:flex-row justify-between w-full'>
 
            
   <nav className="grid grid-flow-col gap-4">
