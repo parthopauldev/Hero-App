@@ -2,11 +2,12 @@ import React from 'react';
 
 import DownloadIcon from '../assets/icon-downloads.png'
 import Rating from '../assets/icon-ratings.png'
+import { Link } from 'react-router';
 const AppCard = ({app}) => {
-    let {image,title,companyName,downloads,ratingAvg}=app;
+    let {image,title,companyName,downloads,ratingAvg,id}=app;
   
     return (
-        <div className='hover:scale-103 transition ease-in-out'>
+        <Link to={`/App/${id}`} className='hover:scale-103 transition ease-in-out'>
           
                        <div className='card w-[348px]  p-[16px] bg-white'>
            <img src={image} className='mb-[10px] rounded-[10px] bg-center bg-c w-[316px] h-[316px]  bg-cover bg-no-repeat ' alt="" />
@@ -17,7 +18,7 @@ const AppCard = ({app}) => {
            </div>
            
                        </div>
-                      </div>
+                      </Link>
                 
        
     );

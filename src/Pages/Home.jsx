@@ -3,10 +3,12 @@ import React from 'react';
 import UseApps from '../Hooks/UseApps';
 import AppCard from '../Components/AppCard';
 import Banner from '../Components/Banner';
+import { Link } from 'react-router';
 const Home = () => {
   const { apps, loading, error } = UseApps();
 
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <span className="loading loading-dots loading-xl"></span>
+;
 
 let homePageApps=apps.slice(0,8);
 
@@ -25,6 +27,7 @@ let homePageApps=apps.slice(0,8);
                             ))
                         }
                       </div>
+                      <Link to='/App' className='btn font-semibold bg-gradient-to-r from-[#6f42c1] to-[#4f7df0] px-[30px]  mt-[20px] text-[24px] text-white'>Show All</Link>
                       </div>
     );
 };

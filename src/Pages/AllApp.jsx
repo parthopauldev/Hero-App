@@ -9,7 +9,8 @@ const AllApp = () => {
     
     let searchApps = searchWord ? apps.filter(app => app.title.toLocaleLowerCase().includes(searchWord)) : apps;
 
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <span className="loading loading-dots loading-xl"></span>
+;
 
 
     return (
@@ -35,11 +36,16 @@ const AllApp = () => {
   <input type="search"  value={search} onChange={(e)=>setSearch(e.target.value)} required placeholder="Search App" />
 </label>
                      </div>
-                      <div className='bg-gray-100 mt-[20px] gap-2 grid grid-cols-4'>
+                      <div className='bg-gray-100 mt-[20px] gap-2 grid grid-cols-4 place-items-center'>
                         {
-                            searchApps.map((app)=>(
+                        searchApps.length > 0? searchApps.map((app)=>(
                                 <AppCard key={app.id} app={app}></AppCard>
-                            ))
+                            )):<div className="col-span-4 flex justify-center items-center h-[300px]">
+  <h1 className="text-gray-400 text-[40px] font-semibold">
+    No App Found
+  </h1>
+</div>
+
                         }
                       </div>
                       </div>

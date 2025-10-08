@@ -2,6 +2,7 @@ import React from "react";
 import googleIcon from "../assets/GooglePlayStore.png";
 import appleIcon from "../assets/appleStore.png";
 import heroImg from '../assets/hero.png'
+import { Link } from "react-router";
 
 const Banner = () => {
   return (
@@ -25,12 +26,12 @@ const Banner = () => {
        
         <button className="flex items-center gap-2 bg-white text-black border px-5 py-3 rounded-2xl hover:opacity-90 transition">
           <img src={googleIcon} alt="Google Play" className="w-6 h-6" />
-          <p className="font-medium">Google Play</p>
+          <Link to='https://play.google.com/store/games?hl=en' className="font-medium">Google Play</Link>
         </button>
 
         <button className="flex items-center gap-2 bg-white border text-black px-5 py-3 rounded-2xl hover:opacity-90 transition">
           <img src={appleIcon} alt="App Store" className="w-6 h-6" />
-          <p className="font-medium">App Store</p>
+          <Link to='https://www.apple.com/store' className="font-medium">App Store</Link>
         </button>
       </div>
       <div className="w-full text-center">
