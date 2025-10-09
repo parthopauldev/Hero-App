@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link, NavLink } from "react-router-dom";
 
 // import { Link, NavLink } from 'react-router';
 import Logo from '../assets/logo.png'
 import GitHup from '../assets/GitHup.png'
 import '../App.css'
+import { Link, NavLink } from 'react-router';
 
 const Navber = () => {
     return (
