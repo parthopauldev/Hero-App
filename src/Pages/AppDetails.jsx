@@ -19,7 +19,7 @@ const AppDetails = () => {
     const app = apps.find((p) => String(p.id) === id);
     if (!app) return <ErrorPage/>;
     
-    const { image, title, companyName, downloads, ratingAvg, reviews, size, ratings } =
+    const { image, title, companyName, downloads, ratingAvg, reviews, size, ratings ,description} =
     app;
     // Data is now correctly sourced as 'ratings'
     const data = ratings; 
@@ -28,9 +28,27 @@ const AppDetails = () => {
         console.log('vvf')
         toast(`${title} Installed Successful`)
         setActive(true)
+        handleAddToInstallation()
     }
     const buttonText = active ? "Installed" : `Install Now (${size}MB)`;
 
+     let handleAddToInstallation=()=>{
+        let existingList= JSON.parse( localStorage.getItem('installApp'))
+
+      let updatedList = [];
+      if (existingList) {
+        let isDuplicate=existingList.some(item=>item.id === app.id)
+        if (isDuplicate) {
+            return alert('You have already installed')
+        }
+          updatedList = [...existingList, app];
+
+      } else {
+          updatedList.push(app);
+      }
+      localStorage.setItem('installApp', JSON.stringify(updatedList));
+      console.log('partho');
+  }; 
     return (
         <div>
 
@@ -120,10 +138,11 @@ const AppDetails = () => {
         </div>
         <hr />
         
+        
       
      
         <div className="max-w-4xl mx-auto p-4 mt-6" style={{ height: '400px' }}>
-            <h3 className="text-xl font-bold mb-4 text-gray-800">Rating Distribution</h3>
+            <h3 className="text-xl font-bold mb-4 text-gray-800">Rating</h3>
 
          
             {data && data.length > 0 ? (
@@ -156,7 +175,8 @@ const AppDetails = () => {
                 <p className="text-gray-500 text-center py-10">No rating data available to display chart.</p>
             )}
         </div>
-     
+        <h2 className="mt-[50px] mb-[20px] font-bold text-3xl">Description</h2>
+     <p>{description}</p>
         </div>
     );
 };

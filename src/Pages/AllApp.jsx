@@ -3,6 +3,9 @@ import UseApps from '../Hooks/UseApps';
 import AppCard from '../Components/AppCard';
 
 const AllApp = () => {
+  
+
+
      const { apps, loading, error } = UseApps();
  let [search,setSearch]=useState('')
     let searchWord=search.trim().toLocaleLowerCase();

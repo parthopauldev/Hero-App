@@ -1,9 +1,12 @@
+
 import React from 'react';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
-import { Outlet } from 'react-router';
+import { Outlet, useNavigate } from 'react-router';
 
 const MainLayout = () => {
+    const navigation= useNavigate()
+if (navigation.state ==='loading') return <h1>loading..  </h1>
     return (
         <div className='flex flex-col min-h-screen bg-gray-100'>
             <Header></Header>
